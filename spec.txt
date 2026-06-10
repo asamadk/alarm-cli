@@ -1,0 +1,24 @@
+Language : python
+
+We want an ALarm CLI using python.
+The basic featires will be 
+
+Functional Requirements
+* Creating alarms (ex input: hours , minutes)
+* List alarms
+* Delete alarms
+
+
+Non - Functional Requirements
+* Unit tests for our codebase
+* Updating readme to help users use the CLI.
+
+
+Core 
+* Keep everything modular, and use OOPS design patterns.
+* We would need alarm object
+* We would need to trigger the alarm, and we would need to make it async so that 
+if someone is using the CLI, and the alarms goes off it is shown in the CLI
+
+* For now lets keep alarm trigger as a test "ALARM TRIGGERED [TIME]"
+* Make the trigger function seperate so that in future we can extend it.
